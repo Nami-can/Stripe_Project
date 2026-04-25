@@ -11,8 +11,8 @@
 ### Клонируем и запускаем скрипт:
 ```bash
 # Клонирование
-git clone https://github.com/ваш-username/название-репо.git
-cd 
+git clone https://github.com/Nami-can/Stripe_Project.git
+cd Stripe_Project
 
 # Даем права
 chmod +x manage.sh
@@ -25,15 +25,15 @@ source venv/bin/activate
 python -m venv venv
 venv\Scripts\activate
 
-# Создать файл .env и добавить ключи Stripe
+# Создаем файл .env и добавляем ключи Stripe
 
 # Запускаем скрипт
 ./manage.sh
 ```
 ## Обычный запуск
 ```bash 
-git clone https://github.com/ваш-username/название-репо.git
-cd название-репо
+git clone https://github.com/Nami-can/Stripe_Project.git
+cd Stripe_Project
 
 # Виртуальное окружение Linux/Mac
 python3 -m venv venv
@@ -47,7 +47,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 
-# Создать файл .env и добавить ключи Stripe
+# Создаем файл .env и добавляем ключи Stripe
 
 
 # Миграции
