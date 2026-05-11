@@ -1,6 +1,5 @@
 # Stripe Django Payments
 
-Тестовое задание: Django + Stripe API для создания платёжных форм.
 
 ---
 
